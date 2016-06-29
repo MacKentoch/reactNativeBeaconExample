@@ -54,12 +54,10 @@ class reactNativeBeaconExample extends Component {
     //
     // component state aware here - attach events
     //
-    // Listen for beacon changes
-    this.subscription = DeviceEventEmitter.addListener(
+    // Ranging: Listen for beacon changes
+    this.beaconsDidRange = DeviceEventEmitter.addListener(
       'beaconsDidRange',
       (data) => {
-        // Set the dataSource state with the whole beacon data
-        // We will be rendering all of it throug <BeaconView />
         this.setState({
           dataSource: this.state.dataSource.cloneWithRows(data.beacons)
         });
@@ -76,7 +74,7 @@ class reactNativeBeaconExample extends Component {
   }
 
   componentWillUnMount(){
-    this.subscription = null;
+    this.beaconsDidRange = null;
   }
 
   render() {
@@ -124,7 +122,7 @@ class reactNativeBeaconExample extends Component {
   }
 }
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 60,
