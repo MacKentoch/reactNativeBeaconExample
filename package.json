@@ -1,7 +1,24 @@
 {
   "name": "reactNativeBeaconExample",
   "version": "0.0.1",
-  "private": true,
+  "author": "Erwan DATIN (MacKentoch)",
+  "license": "MIT",
+  "description": "React Native iBeacon Example",
+  "keywords": [
+    "react-native",
+    "react native",
+    "React Native",
+    "React",
+    "native",
+    "Native",
+    "react",
+    "starter",
+    "es6",
+    "ES6",
+    "ES2015",
+    "beacon",
+    "iBeacon"
+  ],
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },

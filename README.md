@@ -23,14 +23,17 @@ rnpm link
 - `react-native-ibeacon`
 - iOS 8.0 minimum
 
-> Don't forget to active Bluetooth and localization service on your device.
+> Don't forget to active Bluetooth and localization service on your device
+
+*Note: this example app is already configured:*
+![ios: active background mode](./bgmode.gif)
 
 ## Android:
 - `react-native-beacons-android`
 - target :
   - minimum to 21 `minSdkVersion` (*which means: android 5.0 LOLLIPOP*)
 
-> Don't forget to active Bluetooth on your device
+> Don't forget to active Bluetooth on your device (already done for you in this project)
 
 ## Beacon:
 

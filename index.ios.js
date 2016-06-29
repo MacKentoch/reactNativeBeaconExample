@@ -10,7 +10,7 @@ import {
   Text,
   ListView,
   DeviceEventEmitter
-} from 'react-native';
+}                             from 'react-native';
 import Beacons                from 'react-native-ibeacon';
 import BluetoothState         from 'react-native-bluetooth-state';
 
@@ -127,6 +127,7 @@ class reactNativeBeaconExample extends Component {
 var styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 60,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
