@@ -1,0 +1,21 @@
+{
+  "name": "reactNativeBeaconExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.1.0",
+    "react-native": "0.28.0",
+    "react-native-beacons-android": "^1.3.1",
+    "react-native-bluetooth-state": "^2.0.0",
+    "react-native-ibeacon": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^2.13.1",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-react-native": "^1.1.0"
+  }
+}

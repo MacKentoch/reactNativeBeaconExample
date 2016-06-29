@@ -1,0 +1,3 @@
+rootProject.name = 'reactNativeBeaconExample'
+
+include ':app'
