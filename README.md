@@ -1,6 +1,6 @@
 React Native: Beacons (iOS and Android)
 ======
-# This repository is related to my medium article
+## This repository is related to my [medium article](https://medium.com/@erwan.datin/mmazzarolohow-to-play-with-ibeacons-in-a-react-native-application-5cef754b2edc#.jsz0loalm)
 [![RN-iBeacon.png](RN-iBeacon.png)](https://medium.com/@erwan.datin/mmazzarolohow-to-play-with-ibeacons-in-a-react-native-application-5cef754b2edc#.jsz0loalm)
 
 ## How to install
