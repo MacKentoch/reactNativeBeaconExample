@@ -1,5 +1,8 @@
 React Native: Beacons (iOS and Android)
 ======
+[![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](https://github.com/MacKentoch/reactNativeBeaconExample)
+
+
 ## This repository is related to my [medium article](https://medium.com/@erwan.datin/mmazzarolohow-to-play-with-ibeacons-in-a-react-native-application-5cef754b2edc#.jsz0loalm)
 [![RN-iBeacon.png](RN-iBeacon.png)](https://medium.com/@erwan.datin/mmazzarolohow-to-play-with-ibeacons-in-a-react-native-application-5cef754b2edc#.jsz0loalm)
 
