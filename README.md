@@ -17,6 +17,7 @@ Steps to install:
 - clone this repository
 - install all npm dependencies
   ```bash
+  
   npm install
   ```
 - integrates dependencies in iOS and Android projects
