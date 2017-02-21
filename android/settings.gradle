@@ -1,5 +1,5 @@
 rootProject.name = 'reactNativeBeaconExample'
+include ':react-native-beacons-manager'
+project(':react-native-beacons-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-beacons-manager/android')
 
 include ':app'
-include ':react-native-beacons-android'
-project(':react-native-beacons-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-beacons-android/android')

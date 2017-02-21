@@ -9,7 +9,7 @@ React Native: Beacons (iOS and Android)
 ## How to install
 
 Assuming you already have:
-- `NodeJS >= 4.1`
+- `NodeJS >= 6.x`
 - `React Native` tools ([React Native website will explain better than me what it is about](https://facebook.github.io/react-native/docs/getting-started.html))
 - `rnpm` (if you don't have it just: `npm install rnpm -g`*)
 
@@ -17,7 +17,7 @@ Steps to install:
 - clone this repository
 - install all npm dependencies
   ```bash
-  
+
   npm install
   ```
 - integrates dependencies in iOS and Android projects
