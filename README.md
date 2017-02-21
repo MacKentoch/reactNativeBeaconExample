@@ -49,4 +49,4 @@ Any beacon should work just enter the right `uuid`.
 
 This device can become your beacon like emitter thanks to [gemtot](https://github.com/gemtot/iBeacon)
 
-![like here :](gemtot-beacon-emitter-app.PNG)
+<img alt="like here" src="./gemtot-beacon-emitter-app.PNG" style="width:300px" />
