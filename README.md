@@ -11,22 +11,23 @@ React Native: Beacons (iOS and Android)
 Assuming you already have:
 - `NodeJS >= 6.x`
 - `React Native` tools ([React Native website will explain better than me what it is about](https://facebook.github.io/react-native/docs/getting-started.html))
-- `rnpm` (if you don't have it just: `npm install rnpm -g`*)
 
 Steps to install:
 - clone this repository
 - install all npm dependencies
   ```bash
-
   npm install
+  ```
+  or
+  ```javascript
+  yarn install
   ```
 - integrates dependencies in iOS and Android projects
 ```bash
-rnpm link
+react-native link
 ```
 
 ## iOS:
-- `react-native-ibeacon`
 - iOS 8.0 minimum
 
 > Don't forget to active Bluetooth and localization service on your device
@@ -35,7 +36,6 @@ rnpm link
 ![ios: active background mode](./bgmode.gif)
 
 ## Android:
-- `react-native-beacons-android`
 - target :
   - minimum to 21 `minSdkVersion` (*which means: android 5.0 LOLLIPOP*)
 
